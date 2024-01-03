@@ -1,0 +1,46 @@
+.mindful-homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLg43rL_XhswIXk6FvRVgOEFW_Fg3v-FxHgQ&usqp=CAU'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section span {
+    color: #00b894; 
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    margin-top: 0;
+    color: #777;
+  }
+  
+  .water-plant {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .water-plant img {
+    width: 200px; 
+    cursor: pointer;
+  }
+  
+  .water-plant p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  
