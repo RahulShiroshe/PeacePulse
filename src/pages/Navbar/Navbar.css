@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.title h1 {
+  color: #00b894; 
+  background-color: #cbd0d4;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
