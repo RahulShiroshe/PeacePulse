@@ -43,8 +43,8 @@ function CalmingAnimationsPage() {
 
   return (
     <div>
-      <h1>Calming Animations</h1>
       <div className="calming-animations-container">
+      <h1>Calming Animations</h1>
         {calmingAnimations.map((animation) => (
           <div key={animation.id} className="calming-animation">
             <h2>{animation.title}</h2>
