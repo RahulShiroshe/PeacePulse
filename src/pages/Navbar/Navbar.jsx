@@ -10,6 +10,7 @@ function Navbar() {
   };
 
   return (
+    <>
     <nav className="navbar">
       <div className={showMenu ? 'nav-links active' : 'nav-links'}>
         <ul>
@@ -25,6 +26,8 @@ function Navbar() {
         <i className={showMenu ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>
     </nav>
+    <div className='title' ><h1>PeacePulse</h1></div>
+    </>
   );
 }
 
