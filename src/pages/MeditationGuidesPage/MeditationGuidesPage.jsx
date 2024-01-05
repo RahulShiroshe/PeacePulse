@@ -61,14 +61,12 @@ function MeditationGuidesPage() {
   };
 
   return (
-    <div>
-      <h1>Meditation Guides</h1>
+    <div className='meditation-guide-main'>
+      <h1 className='meditation-guides-title'>Meditation Guides</h1>
       <div className="meditation-guides-container">
         {meditationGuides.map((guide) => (
           <div key={guide.id} className="meditation-guide">
             <h2>{guide.title}</h2>
-            <p><strong>Duration:</strong> {guide.duration}</p>
-            <p>{guide.description}</p>
             <div>
               {selectedGuide === guide.audioURL && isPlaying ? (
                 <div>
@@ -79,6 +77,8 @@ function MeditationGuidesPage() {
                 <button onClick={() => playAudio(guide.audioURL)}>Play Audio</button>
               )}
             </div>
+            <p><strong>Duration:</strong> {guide.duration}</p>
+            <p>{guide.description}</p>
           </div>
         ))}
       </div>
